@@ -1,14 +1,14 @@
 import React from "react";
 import QuestionItem from './QuestionItem'
 
-function QuestionList({ questions }) {
+function QuestionList({ questions, onDeleteQuestion }) {
   
   return (
     <section>
       <h1>Quiz Questions</h1>
       <ul>
         {questions.map(question => (
-        <QuestionItem key={question.id} question={question}/>
+        <QuestionItem key={question.id} question={question} onDeleteQuestion={onDeleteQuestion}/>
       ))}
       </ul>
     </section>

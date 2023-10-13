@@ -65,17 +65,6 @@
         "controlled"
       ],
       "correctIndex": 1
-    },
-    {
-      "prompt": "Qual a diferenca entre o charme e o funk?",
-      "answers": [
-        "Um anda bonito",
-        "O outro elegante",
-        "Todas estao corretas",
-        "Nenhuma esta correta"
-      ],
-      "correctIndex": 0,
-      "id": 7
     }
   ]
 }
